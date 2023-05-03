@@ -3,3 +3,27 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+data-jsonl
+.idea
+app/target/**
+app/project/target/**                                                                                                                                         
+app/.bsp/
+
+# Scala specific
+target/
+.idea/
+
+# Spark specific
+*.class
+*.log
+*.out
+*.pid
+*.retry
+*.swp
+logs/
+work/
+ivy/
+ivy2/
+# metastore_db/
+# derby.log
